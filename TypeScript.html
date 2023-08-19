@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TypeScript.CSS">
+    <title>Learn TypeScript</title>
+</head>
+<body>
+    <nav id="sidebar">
+      <h2>TypeScript</h2>
+      <ul>
+        <li><a class="nav-item" href="Javascript.html">Back to JavaScript</a></li>
+        <li><a class="nav-item" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-item" href="#typescript_basics">TypeScript Basics</a></li>
+        <li><a class="nav-item" href="#typescript_types">TypeScript Types</a></li>
+        <li><a class="nav-item" href="#typescript_functions">TypeScript Functions</a></li>
+        <li><a class="nav-item" href="#typescript_classes">TypeScript Classes</a></li>
+        <li><a class="nav-item" href="#typescript_modules">TypeScript Modules</a></li>
+        <li><a class="nav-item" href="#typescript_decorators">TypeScript Decorators</a></li>
+        <li><a class="nav-item" href="#SettingUpTypeScriptEnvironment">Setting up TypeScript Environment</a></li>
+        <li><a class="nav-item" href="#TypeScriptVariables">TypeScript Variables</a></li>
+        <li><a class="nav-item" href="#TypeInferenceInTypeScript">Type Inference in TypeScript</a></li>
+        <li><a class="nav-item" href="#ClassConstructorsInTypeScript">Class Constructors in TypeScript</a></li>
+        <li><a class="nav-item" href="#AccessModifiersInTypeScript">Access Modifiers in TypeScript</a></li>
+        <li><a class="nav-item" href="#PropertiesInTypeScript">Properties in TypeScript</a></li>
+        <li><a class="nav-item" href="#InheritanceInTypeScript">Inheritance in TypeScript</a></li>
+        <li><a class="nav-item" href="#AbstractClassesInTypeScript">Abstract Classes in TypeScript</a></li>
+        <li><a class="nav-item" href="#InterfacesInTypeScript">Interfaces in TypeScript</a></li>
+        <li><a class="nav-item" href="#ImplementingInterfaces">Implementing Interfaces</a></li>
+        <li><a class="nav-item" href="#TypeScriptModules">TypeScript Modules</a></li>
+        <li><a class="nav-item" href="#NamespacesInTypeScript">Namespaces in TypeScript</a></li>
+        <li><a class="nav-item" href="#WorkingWithExternalLibrariesInTypeScript">Working with External Libraries in TypeScript</a></li>
+        <li><a class="nav-item" href="#TypeDeclarationsInTypeScript">Type Declarations in TypeScript</a></li>
+        <li><a class="nav-item" href="#TypeGuardsInTypeScript">Type Guards in TypeScript</a></li>
+        <li><a class="nav-item" href="#UnionTypesInTypeScript">Union Types in TypeScript</a></li>
+        <li><a class="nav-item" href="#IntersectionTypesInTypeScript">Intersection Types in TypeScript</a></li>
+        <li><a class="nav-item" href="#TypeAliasesInTypeScript">Type Aliases in TypeScript</a></li>
+        <li><a class="nav-item" href="#EnumerationsInTypeScript">Enumerations in TypeScript</a></li>
+        <li><a class="nav-item" href="#LiteralTypesInTypeScript">Literal Types in TypeScript</a></li>
+        <li><a class="nav-item" href="#GenericsInTypeScript">Generics in TypeScript</a></li>
+        <li><a class="nav-item" href="#WorkingWithArraysInTypeScript">Working with Arrays in TypeScript</a></li>
+        <li><a class="nav-item" href="#TupleTypesInTypeScript">Tuple Types in TypeScript</a></li>
+        <li><a class="nav-item" href="#EnumsWithStringValuesInTypeScript">Enums with String Values in TypeScript</a></li>
+        <li><a class="nav-item" href="#DecoratorsInTypeScript">Decorators in TypeScript</a></li>
+        <li><a class="nav-item" href="#MixinsInTypeScript">Mixins in TypeScript</a></li>
+        <li><a class="nav-item" href="#NamespacesAndModulesTogether">Namespaces and Modules Together</a></li>
+        <li><a class="nav-item" href="#NamespacesVsModulesInTypeScript">Namespaces vs. Modules in TypeScript</a></li>
+        <li><a class="nav-item" href="#UsingThirdPartyModulesInTypeScript">Using Third-Party Modules in TypeScript</a></li>
+        <li><a class="nav-item" href="#DeclarationMergingInTypeScript">Declaration Merging in TypeScript</a></li>
+        <li><a class="nav-item" href="#AmbientDeclarationsInTypeScript">Ambient Declarations in TypeScript</a></li>
+        <li><a class="nav-item" href="#DeclarationFilesInTypeScript">Declaration Files in TypeScript</a></li>
+        <li><a class="nav-item" href="#WorkingWithPromisesInTypeScript">Working with Promises in TypeScript</a></li>
+        <li><a class="nav-item" href="#AsyncAwaitInTypeScript">Async/Await in TypeScript</a></li>
+        <li><a class="nav-item" href="#UsingAsyncFunctionsInTypeScript">Using async Functions in TypeScript</a></li>
+        <li><a class="nav-item" href="#ErrorHandlingInTypeScript">Error Handling in TypeScript</a></li>
+        <li><a class="nav-item" href="#TypeCompatibilityInTypeScript">Type Compatibility in TypeScript</a></li>
+        <li><a class="nav-item" href="#TypeInferenceWithUnionTypes">Type Inference with Union Types</a></li>
+        <li><a class="nav-item" href="#AdvancedTypesInTypeScript">Advanced Types in TypeScript</a></li>
+        <li><a class="nav-item" href="#ConditionalTypesInTypeScript">Conditional Types in TypeScript</a></li>
+        <li><a class="nav-item" href="#IndexedAccessTypesInTypeScript">Indexed Access Types in TypeScript</a></li>
+        <li><a class="nav-item" href="#MappedTypesInTypeScript">Mapped Types in TypeScript</a></li>
+        <li><a class="nav-item" href="#UtilityTypesInTypeScript">Utility Types in TypeScript</a></li>
+        <li><a class="nav-item" href="#PartialAndReadonlyTypes">Partial and Readonly Types</a></li>
+        <li><a class="nav-item" href="#RequiredAndPickTypes">Required and Pick Types</a></li>
+        <li><a class="nav-item" href="#ExcludeAndExtractTypes">Exclude and Extract Types</a></li>
+        <li><a class="nav-item" href="#NonNullableAndParametersTypes">Non-Nullable and Parameters Types</a></li>
+        <li><a class="nav-item" href="#OmitAndReturnTypeTypes">Omit and ReturnType Types</a></li>
+        <li><a class="nav-item" href="#PolymorphicThisTypes">Polymorphic this Types</a></li>
+        <li><a class="nav-item" href="#TypeCastingInTypeScript">Type Casting in TypeScript</a></li>
+        <li><a class="nav-item" href="#TripleSlashDirectivesInTypeScript">Triple-Slash Directives in TypeScript</a></li>
+        <li><a class="nav-item" href="#ConfiguringTsconfigJson">Configuring tsconfig.json</a></li>
+        <li><a class="nav-item" href="#StrictNullChecksInTypeScript">Strict Null Checks in TypeScript</a></li>
+        <li><a class="nav-item" href="#UsingTypeScriptWithReact">Using TypeScript with React</a></li>
+        <li><a class="nav-item" href="#ReactWithTypeScriptProps">React with TypeScript Props</a></li>
+        <li><a class="nav-item" href="#ReactWithTypeScriptState">React with TypeScript State</a></li>
+        <li><a class="nav-item" href="#ReactWithTypeScriptHooks">React with TypeScript Hooks</a></li>
+        <li><a class="nav-item" href="#ReactWithTypeScriptForms">React with TypeScript Forms</a></li>
+        <li><a class="nav-item" href="#ReactWithTypeScriptContext">React with TypeScript Context</a></li>
+        <li><a class="nav-item" href="#UsingTypeScriptWithNodejs">Using TypeScript with Node.js</a></li>
+        <li><a class="nav-item" href="#IntegratingTypeScriptWithExpressjs">Integrating TypeScript with Express.js</a></li>
+      </ul>
+    </nav>
+    <main id="documentation">
+      <section id="Introduction">
+        <h2>Introduction</h2>
+        <article>
+          <p>
+            TypeScript is a strongly-typed superset of JavaScript that compiles to plain JavaScript. It adds static
+            typing and various other features to help developers write more reliable and maintainable code. TypeScript
+            code is compiled to JavaScript, making it compatible with all modern browsers and platforms.
+          </p>
+          <h3>TypeScript Document</h3>
+          <pre>
+    const greeting: string = "Hello, TypeScript!";
+    console.log(greeting); // Output: Hello, TypeScript!
+          </pre>
+        </article>
+      </section>
+      <section id="typescript_basics">
+        <h2>TypeScript Basics</h2>
+        <article>
+          <p>
+            TypeScript supports all JavaScript features and syntax. It introduces static types, which help catch type
+            errors during development and provide better code documentation.
+          </p>
+          <pre>
+    // TypeScript variables with types
+    let message: string = "Hello, TypeScript!";
+    let num: number = 42;
+    let isDone: boolean = false;
+    </pre>
+        </article>
+      </section>
+      <section id="typescript_types">
+        <h2>TypeScript Types</h2>
+        <article>
+          <p>
+            TypeScript provides various built-in types such as string, number, boolean, array, tuple, enum, any, null,
+            undefined, void, and never. Additionally, it supports custom type declarations using interfaces and
+            classes.
+          </p>
+          <pre>
+    // TypeScript arrays and tuples
+    let fruits: string[] = ["apple", "banana", "orange"];
+    let person: [string, number] = ["John", 30];
+    </pre>
+        </article>
+      </section>
+      <section id="typescript_functions">
+        <h2>TypeScript Functions</h2>
+        <article>
+          <p>
+            Functions in TypeScript can have explicit return types and optional parameters. They can also be assigned
+            to variables and passed as arguments to other functions.
+          </p>
+          <pre>
+    // TypeScript function with return type
+    function add(a: number, b: number): number {
+      return a + b;
+    }
+  
+    // TypeScript function with optional parameter
+    function greet(name?: string): string {
+      return name ? `Hello, ${name}!` : "Hello!";
+    }
+    </pre>
+        </article>
+      </section>
+      <section id="typescript_classes">
+        <h2>TypeScript Classes</h2>
+        <article>
+          <p>
+            Classes in TypeScript allow you to define blueprints for objects. They can have properties, methods, and
+            constructors. TypeScript supports inheritance, interfaces, and access modifiers (public, private, protected).
+          </p>
+          <pre>
+    // TypeScript class with inheritance
+    class Animal {
+      name: string;
+  
+      constructor(name: string) {
+        this.name = name;
+      }
+  
+      makeSound() {
+        console.log("Animal makes a sound.");
+      }
+    }
+  
+    class Dog extends Animal {
+      makeSound() {
+        console.log("Dog barks.");
+      }
+    }
+  
+    const dog = new Dog("Buddy");
+    dog.makeSound(); // Output: Dog barks.
+    </pre>
+        </article>
+      </section>
+      <section id="typescript_modules">
+        <h2>TypeScript Modules</h2>
+        <article>
+          <p>
+            TypeScript supports modules, which allow you to organize your code into separate files and reuse them in
+            other parts of the application. Modules can be imported and exported to create a modular code structure.
+          </p>
+          <pre>
+    // TypeScript module exports
+    export const PI = 3.14;
+  
+    export function add(a: number, b: number): number {
+      return a + b;
+    }
+    </pre>
+        </article>
+      </section>
+      <section id="typescript_decorators">
+        <h2>TypeScript Decorators</h2>
+        <article>
+          <p>
+            Decorators are a TypeScript feature used to modify classes, methods, or properties at design time. They are
+            commonly used with frameworks like Angular to add metadata and behavior to components and services.
+          </p>
+          <pre>
+    // TypeScript decorator example
+    function log(target: any, propertyKey: string, descriptor: PropertyDescriptor) {
+      const originalMethod = descriptor.value;
+      descriptor.value = function (...args: any[]) {
+        console.log("Method called:", propertyKey);
+        return originalMethod.apply(this, args);
+      };
+      return descriptor;
+    }
+  
+    class Example {
+      @log
+      someMethod() {
+        console.log("Hello from someMethod!");
+      }
+    }
+  
+    const instance = new Example();
+    instance.someMethod();
+    </pre>
+        </article>
+      </section>
+    </main>
+  </body>  
+</html>
