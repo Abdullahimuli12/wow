@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Python</title>
+  <link rel="stylesheet" href="Python.css">
+</head>
+<body>
+  <nav id="sidebar">
+    <h2>Python</h2>
+    <ul>
+<li><a class="nav-item" href="Introduction.html">Go back to About Website</a></li>  
+<li><a class="nav-item" href="TypeScript.html">Back To TypeScript</a></li>
+<li><a class="nav-item" href="#Introduction">Introduction</a></li>
+<li><a class="nav-item" href="#htphw">How to Print Something on Page</a></li>
+<li><a class="nav-item" href="#python-basics">Python Basics</a></li>
+<li><a class="nav-item" href="#data-types">Data Types</a></li>
+<li><a class="nav-item" href="#control-structures">Control Structures</a></li>
+<li><a class="nav-item" href="#variables">Variables and Naming</a></li>
+<li><a class="nav-item" href="#type-conversion">Type Conversion</a></li>
+<li><a class="nav-item" href="#operators">Operators in Python</a></li>
+<li><a class="nav-item" href="#lists">Lists and List Manipulation</a></li>
+<li><a class="nav-item" href="#tuples">Tuples and Tuple Unpacking</a></li>
+<li><a class="nav-item" href="#dictionaries">Dictionaries and Dictionary Methods</a></li>
+<li><a class="nav-item" href="#sets">Sets and Set Operations</a></li>
+<li><a class="nav-item" href="#conditionals">Conditional Statements</a></li>
+<li><a class="nav-item" href="#loops">Looping Structures</a></li>
+<li><a class="nav-item" href="#functions">Functions and Function Parameters</a></li>
+<li><a class="nav-item" href="#modules">Modules and Importing</a></li>
+<li><a class="nav-item" href="#file-io">File Input and Output</a></li>
+<li><a class="nav-item" href="#oop">Object-Oriented Programming</a></li>
+<li><a class="nav-item" href="#inheritance">Inheritance and Polymorphism</a></li>
+<li><a class="nav-item" href="#encapsulation">Encapsulation and Abstraction</a></li>
+<li><a class="nav-item" href="#decorators">Decorators and Function Wrappers</a></li>
+<li><a class="nav-item" href="#generators">Generators and Iterators</a></li>
+<li><a class="nav-item" href="#comprehensions">List, Dictionary, and Set Comprehensions</a></li>
+<li><a class="nav-item" href="#regex">Regular Expressions in Python</a></li>
+<li><a class="nav-item" href="#datetime">Working with Dates and Times</a></li>
+<li><a class="nav-item" href="#pip">Using Pip for Package Management</a></li>
+<li><a class="nav-item" href="#virtualenv">Virtual Environments</a></li>
+<li><a class="nav-item" href="#numpy">Introduction to NumPy</a></li>
+<li><a class="nav-item" href="#pandas">Data Manipulation with Pandas</a></li>
+<li><a class="nav-item" href="#matplotlib">Data Visualization with Matplotlib</a></li>
+<li><a class="nav-item" href="#unittest">Unit Testing in Python</a></li>
+<li><a class="nav-item" href="#debugging">Debugging Techniques</a></li>
+<li><a class="nav-item" href="#asyncio">Asynchronous Programming with asyncio</a></li>
+<li><a class="nav-item" href="#web-scraping">Web Scraping using Beautiful Soup</a></li>
+<li><a class="nav-item" href="#api-requests">Making API Requests with Python</a></li>
+<li><a class="nav-item" href="#flask">Building Web Applications with Flask</a></li>
+<li><a class="nav-item" href="#django">Introduction to Django Framework</a></li>
+<li><a class="nav-item" href="#sqlalchemy">Working with SQLAlchemy</a></li>
+<li><a class="nav-item" href="#deploy-python-apps">Deploying Python Applications</a></li>
+<li><a class="nav-item" href="#data-analysis">Introduction to Data Analysis in Python</a></li>
+<li><a class="nav-item" href="#machine-learning">Getting Started with Machine Learning</a></li>
+<li><a class="nav-item" href="#deep-learning">Introduction to Deep Learning</a></li>
+<li><a class="nav-item" href="#natural-language-processing">Natural Language Processing with Python</a></li>
+<li><a class="nav-item" href="#image-processing">Image Processing using Python</a></li>
+<li><a class="nav-item" href="C++.html">Learn C++</a></li>
+
+    </ul>
+  </nav>
+  <main id="documentation">
+    <section id="Introduction">
+        <h2>Introduction</h2>
+        <article>
+            <p>
+                Python is a popular, high-level programming language known for its simplicity and readability.
+                It was created by Guido van Rossum and first released in 1991. Python emphasizes code readability,
+                allowing developers to write clear and concise code even for complex tasks.
+            </p>
+            <p>
+                Python's versatility makes it suitable for a wide range of applications, including web development,
+                data analysis, scientific computing, artificial intelligence, and more. Its large standard library and
+                active community contribute to the wealth of available libraries and frameworks.
+            </p>
+            <p>
+                Python's syntax is designed to be easily understood, with indentation serving as a crucial part of code structure.
+                This readability makes Python an excellent choice for beginners and experienced programmers alike.
+            </p>
+            <pre>
+    # Example of a simple Python program
+    print("Hello, Python!")
+            </pre>
+            <p>
+                In the example above, the <code>print()</code> function is used to display the "Hello, Python!" message.
+                Python does not require semicolons at the end of statements, and the indentation indicates code blocks.
+            </p>
+        </article>
+    </section>
+    <section id="htphw">
+        <h2>How to Print Something on Page</h2>
+        <article>
+            <p>
+                To print something on a web page using JavaScript, you can use the <code>document.write()</code> function or manipulate the DOM (Document Object Model).
+            </p>
+            <pre>
+    // Using document.write()
+    document.write("Hello, world!");
+    
+    // Using DOM manipulation
+    const paragraph = document.createElement('p');
+    paragraph.textContent = "Hello, world!";
+    document.body.appendChild(paragraph);
+    //The easiest way to print somethig on page is
+     print("Hello World!!!")
+            </pre>
+            <p>
+                In this example, both <code>document.write()</code> and DOM manipulation are demonstrated to print content on the page.
+            </p>
+        </article>
+    </section>
+   <section id="python-basics">
+    <h2>Python Basics</h2>
+    <article>
+        <p>
+            Python is a versatile and user-friendly programming language known for its simplicity and readability.
+            It is widely used for various purposes, including web development, data analysis, machine learning, and more.
+        </p>
+        <pre>
+# Example of a simple Python program
+print("Hello, Python!")
+
+# Python supports dynamic typing
+x = 42  # x is an integer
+x = "Hello"  # x is a string now
+        </pre>
+    </article>
+</section>
+
+<section id="data-types">
+    <h2>Data Types</h2>
+    <article>
+        <p>
+            Python supports various data types such as integers, floating-point numbers, strings, booleans, and more.
+            The built-in <code>type()</code> function helps you determine the data type of a variable.
+        </p>
+        <pre>
+# Examples of different data types
+x = 42           # Integer
+y = 3.14         # Float
+name = "Alice"  # String
+is_student = True  # Boolean
+        </pre>
+    </article>
+</section>
+
+<section id="control-structures">
+    <h2>Control Structures</h2>
+    <article>
+        <p>
+            Control structures like <code>if</code>, <code>elif</code>, and <code>else</code> allow you to execute different
+            code blocks based on conditions. Python also provides <code>for</code> and <code>while</code> loops for repetition.
+        </p>
+        <pre>
+# Example of if-else
+age = 18
+if age < 18:
+    print("You are a minor.")
+else:
+    print("You are an adult.")
+        </pre>
+    </article>
+</section>
+
+<section id="variables">
+    <h2>Variables and Naming</h2>
+    <article>
+        <p>
+            Variables are used to store data values. Python variable names are case-sensitive and can consist of letters,
+            numbers, and underscores. However, they cannot start with a number.
+        </p>
+        <pre>
+# Example of variable declaration
+name = "Alice"
+age = 25
+        </pre>
+    </article>
+</section>
+
+<section id="type-conversion">
+    <h2>Type Conversion</h2>
+    <article>
+        <p>
+            Python allows you to convert between different data types using built-in functions like <code>int()</code>,
+            <code>float()</code>, <code>str()</code>, and more. Type conversion is essential when working with different data types.
+        </p>
+        <pre>
+# Examples of type conversion
+num_str = "42"
+num_int = int(num_str)  # Convert string to integer
+num_float = float(num_str)  # Convert string to float
+        </pre>
+    </article>
+</section>
+
+<section id="operators">
+    <h2>Operators in Python</h2>
+    <article>
+        <p>
+            Python provides various operators for performing different operations. These include arithmetic operators,
+            comparison operators, logical operators, and more.
+        </p>
+        <pre>
+# Examples of operators
+x = 10
+y = 3
+sum_result = x + y  # Addition
+product_result = x * y  # Multiplication
+is_equal = x == y  # Equality comparison
+        </pre>
+    </article>
+</section>
+
+<section id="lists">
+    <h2>Lists and List Manipulation</h2>
+    <article>
+        <p>
+            Lists are ordered collections of items, and they can hold elements of different data types.
+            Python provides various methods for adding, removing, and manipulating list elements.
+        </p>
+        <pre>
+# Example of list creation and manipulation
+fruits = ["apple", "banana", "orange"]
+fruits.append("grape")  # Add an item to the end
+fruits.remove("banana")  # Remove an item
+        </pre>
+    </article>
+</section>
+
+<section id="tuples">
+    <h2>Tuples and Tuple Unpacking</h2>
+    <article>
+        <p>
+            Tuples are similar to lists but are immutable, meaning their elements cannot be changed after creation.
+            Tuple unpacking allows you to assign tuple elements to individual variables.
+        </p>
+        <pre>
+# Example of tuple creation and unpacking
+person = ("Alice", 25, "Engineer")
+name, age, profession = person  # Tuple unpacking
+        </pre>
+    </article>
+</section>
+
+<section id="dictionaries">
+    <h2>Dictionaries and Dictionary Methods</h2>
+    <article>
+        <p>
+            Dictionaries are unordered collections of key-value pairs. Each key is unique, and you can use it to access its corresponding value.
+            Python provides methods to add, remove, and access dictionary items.
+        </p>
+        <pre>
+# Example of dictionary creation and manipulation
+person = {
+    "name": "Alice",
+    "age": 25,
+    "profession": "Engineer"
+}
+person["location"] = "City"  # Add a new key-value pair
+del person["age"]  # Remove a key-value pair
+        </pre>
+    </article>
+</section>
+
+<section id="sets">
+    <h2>Sets and Set Operations</h2>
+    <article>
+        <p>
+            Sets are unordered collections of unique elements. They are useful for removing duplicates from a collection of items.
+            Python provides various set operations like union, intersection, and difference.
+        </p>
+        <pre>
+# Example of set creation and set operations
+fruits = {"apple", "banana", "orange"}
+fruits.add("apple")  # No effect since "apple" is already in the set
+unique_fruits = set(fruits)  # Convert list to set to remove duplicates
+        </pre>
+    </article>
+</section>
+
+
+
+<section id="conditionals">
+    <h2>Conditional Statements</h2>
+    <article>
+        <p>
+            Conditional statements allow you to execute different code blocks based on certain conditions.
+            Python provides the <code>if</code>, <code>elif</code> (else if), and <code>else</code> statements for this purpose.
+        </p>
+        <pre>
+# Example of if-elif-else
+age = 18
+if age < 18:
+    print("You are a minor.")
+elif age == 18:
+    print("You just turned 18!")
+else:
+    print("You are an adult.")
+        </pre>
+    </article>
+</section>
+
+<section id="loops">
+    <h2>Looping Structures</h2>
+    <article>
+        <p>
+            Looping allows you to repeat a block of code multiple times. Python supports <code>for</code> and <code>while</code> loops.
+        </p>
+        <pre>
+# Example of for loop
+fruits = ["apple", "banana", "orange"]
+for fruit in fruits:
+    print(fruit)
+
+# Example of while loop
+num = 1
+while num <= 5:
+    print(num)
+    num += 1
+        </pre>
+    </article>
+</section>
+
+<section id="functions">
+    <h2>Functions and Function Parameters</h2>
+    <article>
+        <p>
+            Functions are reusable blocks of code that perform specific tasks. You can define functions and pass arguments to them.
+        </p>
+        <pre>
+# Example of function definition
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Alice")  # Output: Hello, Alice!
+        </pre>
+        <p>
+            Python also supports default parameter values and keyword arguments for greater flexibility.
+        </p>
+    </article>
+</section>
+<section id="modules">
+    <h2>Modules and Importing</h2>
+    <article>
+        <p>
+            In Python, a module is a file containing Python code. Modules allow you to organize your code into
+            reusable components. You can use the <code>import</code> statement to access functions, classes, and variables
+            defined in other modules.
+        </p>
+        <p>
+            Python provides a rich standard library, and you can also create your own modules to package and distribute code.
+        </p>
+        <pre>
+# Importing a module
+import math
+
+# Using a function from the math module
+print(math.sqrt(25))  # Output: 5.0
+        </pre>
+        <p>
+            In this example, the <code>math</code> module is imported, and the <code>sqrt()</code> function is used to calculate the square root.
+        </p>
+    </article>
+</section>
+<section id="file-io">
+    <h2>File Input and Output</h2>
+    <article>
+        <p>
+            Python provides built-in functions for working with files. You can read data from files, write data to files,
+            and manipulate file contents using these functions.
+        </p>
+        <pre>
+# Writing to a file
+with open('example.txt', 'w') as f:
+    f.write('Hello, world!')
+
+# Reading from a file
+with open('example.txt', 'r') as f:
+    content = f.read()
+    print(content)  # Output: Hello, world!
+        </pre>
+        <p>
+            The <code>open()</code> function is used to open a file. The mode specifies whether the file is opened for reading ('r'),
+            writing ('w'), or appending ('a'). The <code>with</code> statement ensures that the file is properly closed after use.
+        </p>
+    </article>
+</section>
+<section id="oop">
+    <h2>Object-Oriented Programming</h2>
+    <article>
+        <p>
+            Python supports object-oriented programming (OOP), allowing you to define classes and create objects with properties and methods.
+            OOP promotes code organization, reusability, and abstraction.
+        </p>
+        <pre>
+# Defining a class
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        return f"Hello, my name is {self.name} and I'm {self.age} years old."
+
+# Creating an object
+person = Person("Alice", 30)
+print(person.greet())  # Output: Hello, my name is Alice and I'm 30 years old.
+        </pre>
+        <p>
+            In this example, the <code>Person</code> class is defined with a constructor <code>__init__()</code> and a <code>greet()</code> method.
+            An object <code>person</code> is created from the class and its <code>greet()</code> method is called.
+        </p>
+    </article>
+</section>
+<section id="inheritance">
+    <h2>Inheritance and Polymorphism</h2>
+    <article>
+        <p>
+            Inheritance is a key concept in object-oriented programming. It allows you to create a new class that inherits properties and
+            methods from an existing class. This promotes code reuse and helps organize classes in a hierarchical manner.
+        </p>
+        <pre>
+# Base class
+class Animal:
+    def speak(self):
+        pass
+
+# Derived class
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+# Creating objects
+animal = Animal()
+dog = Dog()
+print(animal.speak())  # Output: None (base class method)
+print(dog.speak())     # Output: Woof! (derived class method)
+        </pre>
+        <p>
+            In this example, the <code>Animal</code> class is the base class, and the <code>Dog</code> class is derived from it. The <code>Dog</code> class
+            overrides the <code>speak()</code> method of the base class.
+        </p>
+    </article>
+</section>
+<section id="encapsulation">
+    <h2>Encapsulation and Abstraction</h2>
+    <article>
+        <p>
+            Encapsulation and abstraction are fundamental principles in OOP. Encapsulation involves hiding the internal details of a class and providing
+            a public interface for interacting with it. Abstraction focuses on defining the essential features of an object while hiding irrelevant
+            complexities.
+        </p>
+        <pre>
+# Encapsulation and abstraction example
+class BankAccount:
+    def __init__(self, account_number, balance):
+        self.__account_number = account_number
+        self.__balance = balance
+
+    def get_balance(self):
+        return self.__balance
+
+    def deposit(self, amount):
+        self.__balance += amount
+
+    def withdraw(self, amount):
+        if self.__balance >= amount:
+            self.__balance -= amount
+            return amount
+        else:
+            return "Insufficient balance"
+
+# Creating an object
+account = BankAccount("123456789", 1000)
+print(account.get_balance())  # Output: 1000
+        </pre>
+        <p>
+            In this example, the <code>BankAccount</code> class encapsulates the account details and provides methods for depositing, withdrawing, and
+            checking the balance. The double underscores (<code>__</code>) before attribute names indicate private attributes.
+        </p>
+    </article>
+</section>
+<section id="decorators">
+    <h2>Decorators and Function Wrappers</h2>
+    <article>
+        <p>
+            Decorators are a powerful feature in Python that allow you to modify or enhance the behavior of functions or methods. They are often used
+            for tasks such as logging, authentication, and memoization.
+        </p>
+        <pre>
+# Decorator example
+def uppercase_decorator(func):
+    def wrapper(text):
+        result = func(text)
+        return result.upper()
+    return wrapper
+
+@uppercase_decorator
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Alice"))  # Output: HELLO, ALICE!
+        </pre>
+        <p>
+            In this example, the <code>uppercase_decorator</code> decorator converts the result of the <code>greet</code> function to uppercase.
+            The <code>@uppercase_decorator</code> syntax is used to apply the decorator to the <code>greet</code> function.
+        </p>
+    </article>
+</section>
+<section id="generators">
+    <h2>Generators and Iterators</h2>
+    <article>
+        <p>
+            Generators are a memory-efficient way to create sequences of values in Python. They allow you to iterate over a sequence without
+            loading the entire sequence into memory. Generators are implemented using functions with the <code>yield</code> keyword.
+        </p>
+        <pre>
+# Generator example
+def countdown(n):
+    while n > 0:
+        yield n
+        n -= 1
+
+for num in countdown(5):
+    print(num)  # Output: 5, 4, 3, 2, 1
+        </pre>
+        <p>
+            In this example, the <code>countdown</code> generator produces a sequence of countdown numbers without generating the entire sequence
+            in memory.
+        </p>
+    </article>
+</section>
+<section id="comprehensions">
+    <h2>List, Dictionary, and Set Comprehensions</h2>
+    <article>
+        <p>
+            Comprehensions are concise ways to create lists, dictionaries, and sets in Python. They allow you to create collections by specifying
+            the elements using a compact syntax.
+        </p>
+        <pre>
+# List comprehension
+squares = [x**2 for x in range(5)]  # [0, 1, 4, 9, 16]
+
+# Dictionary comprehension
+numbers = {x: x**2 for x in range(5)}  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
+
+# Set comprehension
+even_squares = {x**2 for x in range(10) if x % 2 == 0}  # {0, 4, 16, 36, 64}
+        </pre>
+        <p>
+            In these examples, list, dictionary, and set comprehensions are used to create collections
+            <section id="regex">
+                <h2>Regular Expressions in Python</h2>
+                <article>
+                    <p>
+                        Regular expressions (regex) are powerful patterns used to match and manipulate text strings. Python's <code>re</code> module provides
+                        support for working with regular expressions.
+                    </p>
+                    <pre>
+            import re
+            
+            pattern = r'\d+'  # Match one or more digits
+            text = "Hello 123 world 456"
+            matches = re.findall(pattern, text)
+            print(matches)  # Output: ['123', '456']
+                    </pre>
+                    <p>
+                        In this example, the regular expression <code>\d+</code> is used to match sequences of digits in the text.
+                    </p>
+                </article>
+            </section>
+            <section id="regex">
+                <h2>Regular Expressions in Python</h2>
+                <article>
+                    <p>
+                        Regular expressions (regex) are powerful patterns used to match and manipulate text strings. Python's <code>re</code> module provides
+                        support for working with regular expressions.
+                    </p>
+                    <pre>
+            import re
+            
+            pattern = r'\d+'  # Match one or more digits
+            text = "Hello 123 world 456"
+            matches = re.findall(pattern, text)
+            print(matches)  # Output: ['123', '456']
+                    </pre>
+                    <p>
+                        In this example, the regular expression <code>\d+</code> is used to match sequences of digits in the text.
+                    </p>
+                </article>
+            </section>
+            <section id="datetime">
+                <h2>Working with Dates and Times</h2>
+                <article>
+                    <p>
+                        Python's <code>datetime</code> module provides classes and functions for working with dates, times, and time intervals.
+                        It allows you to perform various operations such as formatting, parsing, and arithmetic with dates and times.
+                    </p>
+                    <pre>
+            from datetime import datetime, timedelta
+            
+            # Current date and time
+            now = datetime.now()
+            print(now)  # Output: 2023-08-19 12:34:56.789
+            
+            # Adding time intervals
+            future = now + timedelta(days=7)
+            print(future)  # Output: 2023-08-26 12:34:56.789
+                    </pre>
+                    <p>
+                        In this example, the <code>datetime</code> module is used to work with the current date and time, as well as to add a time interval.
+                    </p>
+                </article>
+            </section>
+            <section id="pip">
+                <h2>Using Pip for Package Management</h2>
+                <article>
+                    <p>
+                        Pip is a package manager for Python that allows you to install, upgrade, and manage external libraries and packages.
+                        It simplifies the process of adding third-party functionality to your Python projects.
+                    </p>
+                    <pre>
+            # Installing a package
+            pip install package_name
+            
+            # Upgrading a package
+            pip install --upgrade package_name
+            
+            # Uninstalling a package
+            pip uninstall package_name
+                    </pre>
+                    <p>
+                        In this example, <code>pip install</code> is used to install, upgrade, and uninstall packages. Replace <code>package_name</code> with the name of the package you want to manage.
+                    </p>
+                </article>
+            </section>
+            <section id="virtualenv">
+                <h2>Virtual Environments</h2>
+                <article>
+                    <p>
+                        Virtual environments allow you to create isolated environments for Python projects. They help manage dependencies
+                        and prevent conflicts between packages used in different projects.
+                    </p>
+                    <pre>
+            # Creating a virtual environment
+            python -m venv myenv
+            
+            # Activating the virtual environment
+            source myenv/bin/activate  # On Unix/Linux
+            myenv\Scripts\activate     # On Windows
+            
+            # Deactivating the virtual environment
+            deactivate
+                    </pre>
+                    <p>
+                        In this example, a virtual environment named <code>myenv</code> is created and activated. This isolates the project from the global Python environment.
+                    </p>
+                </article>
+            </section>
+            <section id="numpy">
+                <h2>Introduction to NumPy</h2>
+                <article>
+                    <p>
+                        NumPy is a fundamental package for numerical computations in Python. It provides support for arrays, matrices, and mathematical functions
+                        to perform operations efficiently.
+                    </p>
+                    <pre>
+            import numpy as np
+            
+            # Creating a NumPy array
+            arr = np.array([1, 2, 3, 4, 5])
+            
+            # Performing arithmetic operations
+            result = arr + 10
+            print(result)  # Output: [11 12 13 14 15]
+                    </pre>
+                    <p>
+                        In this example, the NumPy library is imported as <code>np</code>. A NumPy array is created and arithmetic operations are performed on it.
+                    </p>
+                </article>
+            </section>
+            <section id="pandas">
+                <h2>Data Manipulation with Pandas</h2>
+                <article>
+                    <p>
+                        Pandas is a powerful library for data manipulation and analysis. It provides data structures and functions to efficiently work with structured data,
+                        such as CSV files, Excel sheets, and SQL databases.
+                    </p>
+                    <pre>
+            import pandas as pd
+            
+            # Creating a DataFrame
+            data = {'Name': ['Alice', 'Bob', 'Charlie'],
+                    'Age': [25, 30, 28]}
+            df = pd.DataFrame(data)
+            
+            # Displaying the DataFrame
+            print(df)
+                    </pre>
+                    <p>
+                        In this example, a Pandas DataFrame is created from a dictionary and displayed. DataFrames provide a tabular view of data and offer powerful manipulation capabilities.
+                    </p>
+                </article>
+            </section>
+            <section id="matplotlib">
+                <h2>Data Visualization with Matplotlib</h2>
+                <article>
+                    <p>
+                        Matplotlib is a popular library for creating visualizations in Python. It provides a wide range of functions to generate various types of plots,
+                        graphs, and charts.
+                    </p>
+                    <pre>
+            import matplotlib.pyplot as plt
+            
+            # Creating a simple plot
+            x = [1, 2, 3, 4, 5]
+            y = [10, 20, 25, 30, 35]
+            plt.plot(x, y)
+            plt.xlabel('X-axis')
+            plt.ylabel('Y-axis')
+            plt.title('Simple Plot')
+            plt.show()
+                    </pre>
+                    <p>
+                        In this example, a simple plot is created using Matplotlib. The <code>plot</code>, <code>xlabel</code>, <code>ylabel</code>, and <code>title</code> functions are used to customize the plot.
+                    </p>
+                </article>
+            </section>
+            <section id="unittest">
+                <h2>Unit Testing in Python</h2>
+                <article>
+                    <p>
+                        Unit testing is an essential practice in software development that involves testing individual components or functions to ensure their correctness.
+                    </p>
+                    <pre>
+        import unittest
+        
+        class TestStringMethods(unittest.TestCase):
+        
+            def test_upper(self):
+                self.assertEqual('hello'.upper(), 'HELLO')
+        
+            def test_isupper(self):
+                self.assertTrue('HELLO'.isupper())
+                self.assertFalse('Hello'.isupper())
+        
+        if __name__ == '__main__':
+            unittest.main()
+                    </pre>
+                    <p>
+                        In this example, the <code>unittest</code> module is used to define and run tests for various string methods.
+                    </p>
+                </article>
+            </section>
+                        <section id="debugging">
+                <h2>Debugging Techniques</h2>
+                <article>
+                    <p>
+                        Debugging is the process of identifying and fixing errors or bugs in your code. Python provides various tools and techniques to aid in debugging.
+                    </p>
+                    <pre>
+        # Using print statements
+        def divide(a, b):
+            print("Dividing", a, "by", b)
+            result = a / b
+            print("Result:", result)
+            return result
+        
+        # Using the pdb debugger
+        import pdb
+        
+        def calculate(x, y):
+            result = x + y
+            pdb.set_trace()  # Start debugging session
+            result *= 2
+            return result
+                    </pre>
+                    <p>
+                        In this example, both print statements and the built-in <code>pdb</code> debugger are demonstrated as debugging techniques.
+                    </p>
+                </article>
+            </section>
+        
+       
+            <section id="asyncio">
+                <h2>Asynchronous Programming with asyncio</h2>
+                <article>
+                    <p>
+                        Asynchronous programming allows you to write concurrent code that is more efficient in terms of resource utilization and responsiveness.
+                    </p>
+                    <pre>
+        import asyncio
+        
+        async def main():
+            print("Hello")
+            await asyncio.sleep(1)
+            print("World")
+        
+        asyncio.run(main())
+                    </pre>
+                    <p>
+                        In this example, the <code>asyncio</code> library is used to create an asynchronous coroutine that demonstrates concurrent execution.
+                    </p>
+                </article>
+            </section>
+        
+     
+            <section id="web-scraping">
+                <h2>Web Scraping using Beautiful Soup</h2>
+                <article>
+                    <p>
+                        Web scraping involves extracting data from websites. The <code>beautifulsoup4</code> library simplifies the process of parsing HTML documents.
+                    </p>
+                    <pre>
+        from bs4 import BeautifulSoup
+        import requests
+        
+        url = 'https://example.com'
+        response = requests.get(url)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        title = soup.find('title').get_text()
+        
+        print("Title:", title)
+                    </pre>
+                    <p>
+                        In this example, <code>BeautifulSoup</code> is used to parse an HTML page and extract the title content.
+                    </p>
+                </article>
+            </section>
+        
+            <section id="api-requests">
+                <h2>Making API Requests with Python</h2>
+                <article>
+                    <p>
+                        APIs (Application Programming Interfaces) allow different software systems to communicate with each other. Python makes it easy to interact with APIs.
+                    </p>
+                    <pre>
+        import requests
+        
+        url = 'https://api.example.com/data'
+        response = requests.get(url)
+        data = response.json()
+        
+        print("Received Data:", data)
+                    </pre>
+                    <p>
+                        In this example, the <code>requests</code> library is used to make a GET request to an API and retrieve JSON data.
+                    </p>
+                </article>
+            </section>
+        
+                 <section id="flask">
+                <h2>Building Web Applications with Flask</h2>
+                <article>
+                    <p>
+                        Flask is a lightweight web framework that allows you to build web applications quickly and easily.
+                    </p>
+                    <pre>
+        from flask import Flask
+        
+        app = Flask(__name__)
+        
+        @app.route('/')
+        def hello_world():
+            return 'Hello, Flask!'
+        
+        if __name__ == '__main__':
+            app.run()
+                    </pre>
+                    <p>
+                        In this example, a simple Flask web application is created with a route that returns a "Hello, Flask!" message.
+                    </p>
+                </article>
+            </section>
+        
+
+            <section id="django">
+                <h2>Introduction to Django Framework</h2>
+                <article>
+                    <p>
+                        Django is a powerful web framework for building complex and feature-rich web applications with Python.
+                    </p>
+                    <pre>
+        # Installing Django
+        pip install Django
+        
+        # Creating a new Django project
+        django-admin startproject myproject
+        
+        # Running the development server
+        cd myproject
+        python manage.py runserver
+                    </pre>
+                    <p>
+                        In this example, the steps for installing Django and creating a new project are outlined.
+                    </p>
+                </article>
+            </section>
+        
+        
+            <section id="sqlalchemy">
+                <h2>Working with SQLAlchemy</h2>
+                <article>
+                    <p>
+                        SQLAlchemy is a popular Python library for interacting with relational databases using an Object-Relational Mapping (ORM) approach.
+                    </p>
+                    <pre>
+        from sqlalchemy import create_engine, Column, Integer, String
+        from sqlalchemy.ext.declarative import declarative_base
+        from sqlalchemy.orm import sessionmaker
+        
+        Base = declarative_base()
+        
+        class User(Base):
+            __tablename__ = 'users'
+        
+            id = Column(Integer, primary_key=True)
+            username = Column(String)
+            email = Column(String)
+        
+        engine = create_engine('sqlite:///mydatabase.db')
+        Base.metadata.create_all(engine)
+        
+        Session = sessionmaker(bind=engine)
+        session = Session()
+        
+        new_user = User(username='john', email='john@example.com')
+        session.add(new_user)
+        session.commit()
+                    </pre>
+                    <p>
+                        In this example, SQLAlchemy is used to define a User class, create a database, and add a new user record.
+                    </p>
+                </article>
+            </section>
+        
+          
+            <section id="deploy-python-apps">
+                <h2>Deploying Python Applications</h2>
+                <article>
+                    <p>
+                        Deploying a Python application involves making it available for users to access and use. Various deployment options are available.
+                    </p>
+                    <pre>
+        # Deploying a Flask application using a production server (e.g., Gunicorn)
+        gunicorn myapp:app
+        
+        # Deploying a Django application using a production server (e.g., uWSGI)
+        uwsgi --http :8000 --module myproject.wsgi
+                    </pre>
+                    <p>
+                        In this example, deploying Flask and Django applications using Gunicorn and uWSGI, respectively, is demonstrated.
+                    </p>
+                </article>
+            </section>
+                              <section id="data-analysis">
+                <h2>Introduction to Data Analysis in Python</h2>
+                <article>
+                    <p>
+                        Python provides powerful libraries for data analysis, such as pandas and NumPy, which enable working with large datasets and performing data manipulation.
+                    </p>
+                    <pre>
+        import pandas as pd
+        
+        data = pd.read_csv('data.csv')
+        summary = data.describe()
+        
+        print("Data Summary:\n", summary)
+                    </pre>
+                    <p>
+                        In this example, the pandas library is used to read data from a CSV file and generate a summary of the dataset.
+                    </p>
+                </article>
+            </section>
+            <section id="machine-learning">
+                <h2>Getting Started with Machine Learning</h2>
+                <article>
+                    <p>
+                        Machine learning involves training models to make predictions or decisions based on data patterns. Python offers libraries like scikit-learn for machine learning tasks.
+                    </p>
+                    <pre>
+        from sklearn.model_selection import train_test_split
+        from sklearn.linear_model import LinearRegression
+        
+        # Load data
+        data = pd.read_csv('data.csv')
+        X = data[['feature1', 'feature2']]
+        y = data['target']
+        
+        # Split data into training and testing sets
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+        
+        # Train a linear regression model
+        model = LinearRegression()
+        model.fit(X_train, y_train)
+        
+        # Make predictions
+        predictions = model.predict(X_test)
+                    </pre>
+                    <p>
+                        In this example, scikit-learn is used to train a linear regression model and make predictions.
+                    </p>
+                </article>
+            </section>
+        
+                       <section id="deep-learning">
+                <h2>Introduction to Deep Learning</h2>
+                <article>
+                    <p>
+                        Deep learning is a subfield of machine learning that focuses on neural networks with multiple layers. Libraries like TensorFlow and PyTorch are commonly used for deep learning projects.
+                    </p>
+                    <pre>
+        import tensorflow as tf
+        
+        # Create a simple neural network
+        model = tf.keras.Sequential([
+            tf.keras.layers.Dense(64, activation='relu', input_shape=(input_size,)),
+            tf.keras.layers.Dense(10, activation='softmax')
+        ])
+        
+        # Compile the model
+        model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+        
+        # Train the model
+        model.fit(X_train, y_train, epochs=10, batch_size=32)
+                    </pre>
+                    <p>
+                        In this example, TensorFlow is used to create and train a simple neural network for classification.
+                    </p>
+                </article>
+            </section>
+               <section id="natural-language-processing">
+                <h2>Natural Language Processing with Python</h2>
+                <article>
+                    <p>
+                        Natural Language Processing (NLP) involves the interaction between computers and human language. Python libraries like NLTK and spaCy facilitate NLP tasks.
+                    </p>
+                    <pre>
+        import nltk
+        
+        # Tokenize text
+        text = "Natural language processing is fascinating."
+        tokens = nltk.word_tokenize(text)
+        
+        print("Tokens:", tokens)
+                    </pre>
+                    <p>
+                        In this example, the NLTK library is used to tokenize a sentence into words.
+                    </p>
+                </article>
+            </section>
+        
+     
+            <section id="image-processing">
+                <h2>Image Processing using Python</h2>
+                <article>
+                    <p>
+                        Python offers libraries like OpenCV for image processing tasks, including reading, manipulating, and analyzing images.
+                    </p>
+                    <pre>
+        import cv2
+        
+        # Read an image
+        image = cv2.imread('image.jpg')
+        
+        # Convert to grayscale
+        gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        
+        # Display the grayscale image
+        cv2.imshow('Grayscale Image', gray_image)
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
+                    </pre>
+                    <p>
+                        In this example, OpenCV is used to read an image, convert it to grayscale, and display it.
+                    </p>
+                </article>
+            </section>                                                                             
+    <button class="abc" > <a href="C++.html">Learn C++</a> </button>
+    <footer>
+      <p>Copyright © Shipyard Gamerz. All rights reserved.</p>
+      </footer>
+  </main>
+</body>
+</html>

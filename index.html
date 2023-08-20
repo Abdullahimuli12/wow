@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn HTML</title>
+  <link rel="stylesheet" href="Style.CSS">
+</head>
+<body>
+  <nav id="sidebar">
+    <h2>HTML</h2>
+    <ul>
+      <li><a class="nav-item" href="Introduction.html">Go Back to About Website</a></li>
+      <li><a class="nav-item" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-item" href="#html_editors">HTML Editors</a></li>
+      <li> <a class="nav-item" href="#html_classes"> HTML Classes </a> </li>
+      <li> <a class="nav-item" href="#html_elements">HTML Elements</a></li>
+      <li><a class="nav-item" href="#html_attributes">HTML Attributes</a></li>
+      <li><a class="nav-item" href="#html_heading">HTML Heading</a></li>
+      <li><a class="nav-item" href="#html_paragraph">HTML Paragraph</a></li>
+      <li><a class="nav-item" href="#html_style">HTML Style</a></li>
+      <li><a class="nav-item" href="#html_formatting">HTML Formatting</a></li>
+      <li><a class="nav-item" href="#html_links">HTML Links</a></li>
+      <li><a class="nav-item" href="#html_images">HTML Images</a></li>
+      <li><a class="nav-item" href="#html_lists">HTML Lists</a></li>
+      <li><a class="nav-item" href="#html_tables">HTML Tables</a></li>
+      <li><a class="nav-item" href="#html_forms">HTML Forms</a></li>
+      <li><a class="nav-item" href="#html_buttons">HTML Buttons</a></li>
+      <li><a class="nav-item" href="#html_semantics">HTML Semantics</a></li>
+      <li><a class="nav-item" href="#html_metadata">HTML Metadata</a></li>
+      <li><a class="nav-item" href="#html_validation">HTML Validation</a></li>
+      <li><a class="nav-item" href="#html_layout">HTML Layout</a></li>
+      <li><a class="nav-item" href="#html_iframes">HTML Iframes</a></li>
+      <li><a class="nav-item" href="#html_audio_video">HTML Audio and Video</a></li>
+      <li><a class="nav-item" href="#html_canvas">HTML Canvas</a></li>
+      <li><a class="nav-item" href="#html_svg">HTML SVG</a></li>
+      <li><a class="nav-item" href="#html_geolocation">HTML Geolocation</a></li>
+      <li><a class="nav-item" href="#html_web_storage">HTML Web Storage</a></li>
+      <li><a class="nav-item" href="#html_drag_drop">HTML Drag and Drop</a></li>
+      <li><a class="nav-item" href="#html_web_workers">HTML Web Workers</a></li>
+      <li><a class="nav-item" href="#html_server_sent_events">HTML Server-Sent Events</a></li>
+      <li><a class="nav-item" href="#html_web_sockets">HTML Web Sockets</a></li>
+      <li><a class="nav-item" href="#html_app_cache">HTML App Cache</a></li>
+      <li><a class="nav-item" href="#html_cookies">HTML Cookies</a></li>
+      <li><a class="nav-item" href="#html_history_api">HTML History API</a></li>
+      <li><a class="nav-item" href="#html_microdata">HTML Microdata</a></li>
+      <li><a class="nav-item" href="#html_web_components">HTML Web Components</a></li>
+      <li><a class="nav-item" href="#html_intro_to_xhtml">HTML - Introduction to XHTML</a></li>
+      <li><a class="nav-item" href="#html_document_structure">HTML Document Structure</a></li>
+      <li><a class="nav-item" href="#html_basic_tags">HTML Basic Tags</a></li>
+      <li><a class="nav-item" href="Css.html">Learn CSS</a></li>
+
+    </ul>
+  </nav>
+  <main id="documentation">
+    <section id="Introduction">
+      <h2>Introduction</h2>
+      <article>
+        <p>
+          HTML is an acronym for + stands HyperText Markup Language, and it is the
+          standard language for creating web-pages. Every web page you surf on
+          your browser is built using HTML. The primary use of HTML to provide
+          a proper structure to the web-page so all the content or data of the
+          page could represent adequately. A stand-alone HTML can create only
+          static and skeleton looking black and white pages, but with the help
+          of CSS and JavaScript , we can create a more interactive and
+          intuitive web-page. When we try to visit a website or click on the
+          link, we basically request the server to show us the page, then the
+          server acts on our request and sends us an appropriate HTML document
+          as a response. Then this HTML document parsed by browse, and we able
+          to see the content.
+        </p>
+        <h3>HTML Document</h3>
+        <pre>
+&lt;!DOCTYPE html&gt;
+                &lt;html&gt;
+                &lt;head&gt;
+                &lt;title&gt;Page Title&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+
+                &lt;h1&gt;This is a Heading&lt;/h1&gt;
+                &lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+                &lt;/body&gt;
+                &lt;/html&gt;</pre>
+      </article>
+    </section>
+    <section id="html_editors">
+      <h2>HTML Editors</h2>
+      <article>
+        <p>
+          However, you can use notepad to create and edit HTML documents, but
+          we recommend to install an open-source editor. There are many free
+          to use text-editor software present on the internet, which provides
+          a better interactive User interface and some add-on functionality
+          which you miss on a notepad.
+        </p>
+        <p>Here is the list of top 4 HTML text editors you can pick:</p>
+
+        <ul>
+          <li>Visual Studio Code</li>
+          <li>Sublime Text Editor</li>
+          <li>Notepad++</li>
+
+          <li>Atom</li>
+        </ul>
+        <p>By the way my favourite is Visual Studio Code because it have everything I need and It also tells us the mistakes errors and and extensions which helps us to build some thing and top three extensions for html, Css and Java Script are: </p>
+        <ul>
+          <li>
+              Prettier
+          </li>
+          <li>
+              Live server
+          </li>
+          <li>
+              Live Preview
+          </li>
+        </ul>
+        <p>To install Visual Studio code go to this website: <a href="https://code.visualstudio.com/download">Click me</a> to go to Visual Studio code official website </p>
+      </article>
+    </section>
+    <li> <a class="nav-item" href="#html_classes">HTML Classes</a> </li>
+
+<section id="html_classes" class="section-style">
+<h2 class="section-heading">HTML Classes</h2>
+<article>
+  <p class="section-description">
+    HTML Classes are used to apply specific styles or behaviors to one or more HTML elements. They allow you to group elements based on common characteristics and apply styles to them collectively.
+  </p>
+  <pre class="code-block">
+    &lt;p class="highlighted-text"&gt;This text is highlighted with a specific class.&lt;/p&gt;
+    &lt;button class="btn btn-primary"&gt;Click Me&lt;/button&gt;
+    &lt;div class="container"&gt; ... &lt;/div&gt;
+  </pre>
+  <h3>In CSS,</h3> 
+  <pre> .container{
+  background: #000000 ;
+  width: 500px ;
+  Height: 700px ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;   
+  }  
+  </pre>
+</article>
+</section>
+
+    <section id="html_elements">
+      <h2>HTML Elements</h2>
+      <article>
+        <p>
+          The HTML elements provide the semantic meaning to the web-page
+          content. We usually interchangeably use the term HTML elements and
+          tags, but technically both are different. An HTML tag is just a
+          character inside the angle bracket<>, whereas the HTML element is a
+            collection of starting tag, its attribute, content and end tag. For
+            example:
+        </p>
+        <pre>&lt;p class= "para"&gt; Hello World &lt;/p&gt;</pre>
+      </article>
+    </section>
+    <section id="html_attributes">
+      <h2>HTML Attributes</h2>
+      <article>
+        <p>
+          In HTML, the attributes are used to provide additional information
+          about the elements. For most of the HTML elements, attributes are
+          optional, but there are some elements where we have to deliver the
+          attributes. Attributes always specified within the opening tag of
+          the HTML element and they specified in a name and value pair.
+          <strong> Example </strong>
+        </p>
+        <pre>&lt;image src= "cat.jpg" alt ="cat image"&gt;</pre>
+        <p>
+          In this example src ="cat.jpg" and alt="cat image" are two
+          attributes where src and alt are attributes name and "cat.jpg" and
+          "cat image" are attributes values. Here alt attribute is optional,
+          but src is mandatory because src specify which image to show. There
+          should be at least one space gap between two attributes, and the
+          value of the attributes must have resided in the double inverted
+          comma. Some most important HTML
+        </p>
+      </article>
+    </section>
+    <section id="html_heading">
+      <h2>HTML Heading</h2>
+      <p>
+        To display the section heading, title or subtitle we can use the HTML
+        heading tags. In HTML 5 we have 6 heading tags start from &lt;h1&gt;
+        up to &lt;h6&gt;, where &lt;h1&gt; specify the largest heading and
+        &lt;h6&gt; represent the smallest or sub heading. If the content is
+        specified by heading tags, then it would be displayed large and bold
+        as compared to other text content present on the web-page.
+        <strong> Example </strong>
+      </p>
+      <pre>
+&lt;h1&gt;First Heading &lt;/h1&gt;
+            &lt;h2&gt;Second Heading &lt;/h2&gt;
+            &lt;h3&gt;Third Heading &lt;/h3&gt;
+            &lt;h4&gt;Forth Heading &lt;/h4&gt;
+            &lt;h5&gt;Fifth Heading &lt;/h5&gt;
+            &lt;h6&gt;Sixth Heading &lt;/h6&gt;</pre>
+    </section>
+    <section id="html_paragraph">
+      <h2>HTML Paragraph</h2>
+      <article>
+        <p>
+          In HTML paragraphs can be defined using &lt;p&gt; element. Paragraph
+          text always starts from a new line, the browser parsed the &lt;p&gt;
+          tag and automatically add some margin and white space after the end
+          &lt;/p&gt; tag.
+        </p>
+        <pre>
+&lt;p&gt; Hello! and Welcome to Shipyard Gamerz &lt;/p&gt;
+                &lt;p&gt; Here you get to know all about the latest technology. &lt;/p&gt;</pre>
+      </article>
+    </section>
+    <section id="html_style">
+      <h2>HTML Style</h2>
+      <article>
+        <p>
+          Every browser has a specific engine that parses the HTML document and displays a default style of the page content.
+        </p>
+        <pre>&lt;body style="background-color:yellow;"&gt;
+
+                &lt;h1&gt;Shipyard Gamerz&lt;/h1&gt;
+                &lt;p&gt;Welcome to Shipyard Gamerz.&lt;/p&gt;
+                
+                &lt;/body&gt;</pre>
+      </article>
+    </section>
+    <section id="html_formatting">
+      <h2>HTML Formatting</h2>
+      <article>
+        <p>
+          In HTML, we have many special elements that can provide special meaning to text content.
+        </p>
+        <div class="hscroll">
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                    
+                  
+                </td>
+                <td>
+                  Description
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &lt;b&gt;
+                </td>
+                <td>
+                  Bold the text
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &lt;strong&gt;
+                </td>
+                <td>
+                  An alternative for &lt;b&gt;, which tell that this text is essential.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &lt;i&gt;
+                </td>
+                <td>
+                  Italic the text
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &lt;em&gt;
+                </td>
+                <td>
+                  Similar to italic but used when we want to emphasize the text.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &lt;mark&gt;
+                </td>
+                <td>
+                  It marks the text with a default "yellow" background colour
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &lt;small&gt;
+                </td>
+                <td>
+                  Decrease the text size
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &lt;del&gt;
+                </td>
+                <td>
+                  It prints a cross line over the text.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &lt;ins&gt;
+                </td>
+                <td>
+                  Represents the inserted text by putting an underline.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &lt;sub&gt;
+                </td>
+                <td>
+                  This element is used to display the subscript.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  &lt;sup&gt;
+                </td>
+                <td>
+                  It can make a text superscript.
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+    <section id="html_links">
+      <h2>HTML Links</h2>
+      <article>
+        <p>
+          HTML links are used to navigate between web pages. They are created using the anchor element <code>&lt;a&gt;</code> with the <code>href</code> attribute, which specifies the URL of the target page. When users click on a link, the browser redirects them to the linked page.
+        </p>
+        <pre>
+          &lt;a href="https://www.example.com"&gt;Visit Example Website&lt;/a&gt;
+        </pre>
+      </article>
+    </section>
+  
+    <section id="html_images">
+      <h2>HTML Images</h2>
+      <article>
+        <p>
+          Images play a vital role in web pages, and they are inserted using the <code>&lt;img&gt;</code> element. The <code>src</code> attribute specifies the image URL, and the <code>alt</code> attribute provides alternative text that is displayed when the image cannot be loaded.
+        </p>
+        <pre>
+          &lt;img src="image.jpg" alt="Image description"&gt;
+        </pre>
+      </article>
+    </section>
+  
+    <section id="html_lists">
+      <h2>HTML Lists</h2>
+      <article>
+        <p>
+          Lists are used to present information in an organized manner. HTML supports three types of lists: ordered lists, unordered lists, and description lists. Ordered lists use the <code>&lt;ol&gt;</code> element, unordered lists use the <code>&lt;ul&gt;</code> element, and description lists use the <code>&lt;dl&gt;</code> element.
+        </p>
+        <pre>
+          &lt;h3&gt;Ordered List&lt;/h3&gt;
+          &lt;ol&gt;
+            &lt;li&gt;Item 1&lt;/li&gt;
+            &lt;li&gt;Item 2&lt;/li&gt;
+          &lt;/ol&gt;
+  
+          &lt;h3&gt;Unordered List&lt;/h3&gt;
+          &lt;ul&gt;
+            &lt;li&gt;Item A&lt;/li&gt;
+            &lt;li&gt;Item B&lt;/li&gt;
+          &lt;/ul&gt;
+  
+          &lt;h3&gt;Description List&lt;/h3&gt;
+          &lt;dl&gt;
+            &lt;dt&gt;Term 1&lt;/dt&gt;
+            &lt;dd&gt;Description 1&lt;/dd&gt;
+            &lt;dt&gt;Term 2&lt;/dt&gt;
+            &lt;dd&gt;Description 2&lt;/dd&gt;
+          &lt;/dl&gt;
+        </pre>
+      </article>
+    </section>
+    <section id="html_tables">
+      <h2>HTML Tables</h2>
+      <article>
+        <p>
+          HTML tables are used to display data in rows and columns. They are created using the <code>&lt;table&gt;</code> element. Tables contain rows (<code>&lt;tr&gt;</code>), and each row can have data cells (<code>&lt;td&gt;</code>) or header cells (<code>&lt;th&gt;</code>). Header cells provide column labels, and data cells contain the actual data.
+        </p>
+        <pre>
+          &lt;table&gt;
+            &lt;tr&gt;
+              &lt;th&gt;Name&lt;/th&gt;
+              &lt;th&gt;Age&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;John&lt;/td&gt;
+              &lt;td&gt;30&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;Jane&lt;/td&gt;
+              &lt;td&gt;25&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/table&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_forms">
+      <h2>HTML Forms</h2>
+      <article>
+        <p>
+          HTML forms are used to collect user input. They are created using the <code>&lt;form&gt;</code> element. Forms can contain various types of input elements like text fields, checkboxes, radio buttons, select dropdowns, and more. When the user submits the form, the data is sent to the server for processing.
+        </p>
+        <pre>
+          &lt;form action="/submit" method="post"&gt;
+            &lt;label for="name"&gt;Name:&lt;/label&gt;
+            &lt;input type="text" id="name" name="name"&gt;
+            &lt;label for="email"&gt;Email:&lt;/label&gt;
+            &lt;input type="email" id="email" name="email"&gt;
+            &lt;input type="submit" value="Submit"&gt;
+          &lt;/form&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_buttons">
+      <h2>HTML Buttons</h2>
+      <article>
+        <p>
+          HTML buttons are interactive elements that allow users to trigger actions when clicked. They are created using the <code>&lt;button&gt;</code> element. Buttons can be used for form submissions, navigation, or any custom action you want to perform on the webpage.
+        </p>
+        <pre>
+          &lt;button&gt;Click Me&lt;/button&gt;
+        </pre>
+      </article>
+    </section>
+    <section id="html_semantics">
+      <h2>HTML Semantics</h2>
+      <article>
+        <p>
+          HTML semantics refers to the meaning and structure of HTML elements. Using semantic elements properly helps browsers and search engines understand the content of your web pages better. Some examples of semantic elements are <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code>, and more.
+        </p>
+        <pre>
+          &lt;header&gt;
+            &lt;h1&gt;Website Title&lt;/h1&gt;
+            &lt;nav&gt;
+              &lt;ul&gt;
+                &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/nav&gt;
+          &lt;/header&gt;
+          &lt;main&gt;
+            &lt;article&gt;
+              &lt;h2&gt;Article Title&lt;/h2&gt;
+              &lt;p&gt;Article content goes here...&lt;/p&gt;
+            &lt;/article&gt;
+            &lt;section&gt;
+              &lt;h2&gt;Section Title&lt;/h2&gt;
+              &lt;p&gt;Section content goes here...&lt;/p&gt;
+            &lt;/section&gt;
+          &lt;/main&gt;
+          &lt;footer&gt;
+            &lt;p&gt;Copyright © 2023 Your Website&lt;/p&gt;
+          &lt;/footer&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_metadata">
+      <h2>HTML Metadata</h2>
+      <article>
+        <p>
+          HTML metadata provides information about the HTML document and is placed within the <code>&lt;head&gt;</code> element. Metadata includes the document's title, character encoding, author, description, and more. It is crucial for SEO and proper rendering of web pages.
+        </p>
+        <pre>
+          &lt;head&gt;
+            &lt;meta charset="UTF-8"&gt;
+            &lt;title&gt;My Web Page&lt;/title&gt;
+            &lt;meta name="description" content="This is a description of my web page."&gt;
+            &lt;meta name="author" content="John Doe"&gt;
+          &lt;/head&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_validation">
+      <h2>HTML Validation</h2>
+      <article>
+        <p>
+          HTML validation is the process of checking if your HTML code complies with the rules and standards defined by the HTML specification. Valid HTML ensures proper rendering of web pages across different browsers and devices. You can validate your HTML code using online validators or browser developer tools.
+        </p>
+        <p>
+          <strong>Example:</strong> Using the W3C Markup Validation Service to validate an HTML document.
+        </p>
+        <pre>
+          &lt;!DOCTYPE html&gt;
+          &lt;html&gt;
+            &lt;head&gt;
+              &lt;title&gt;My Web Page&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+              &lt;h1&gt;Hello, World!&lt;/h1&gt;
+            &lt;/body&gt;
+          &lt;/html&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_layout">
+      <h2>HTML Layout</h2>
+      <article>
+        <p>
+          HTML5 introduced several new layout elements that help organize the structure of web pages more semantically. These elements include <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, and <code>&lt;footer&gt;</code>. Proper use of these elements makes the code cleaner and easier to understand.
+        </p>
+        <pre>
+          &lt;header&gt;
+            &lt;h1&gt;Website Header&lt;/h1&gt;
+          &lt;/header&gt;
+          &lt;nav&gt;
+            &lt;ul&gt;
+              &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/nav&gt;
+          &lt;main&gt;
+            &lt;section&gt;
+              &lt;h2&gt;Section Title&lt;/h2&gt;
+              &lt;p&gt;Section content goes here...&lt;/p&gt;
+            &lt;/section&gt;
+            &lt;aside&gt;
+              &lt;h3&gt;Sidebar&lt;/h3&gt;
+              &lt;p&gt;Sidebar content goes here...&lt;/p&gt;
+            &lt;/aside&gt;
+          &lt;/main&gt;
+          &lt;footer&gt;
+            &lt;p&gt;Copyright © 2023 Your Website&lt;/p&gt;
+          &lt;/footer&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_iframes">
+      <h2>HTML Iframes</h2>
+      <article>
+        <p>
+          HTML <code>&lt;iframe&gt;</code> elements allow you to embed another HTML document within the current document. Iframes are commonly used to embed videos, maps, and external content from other websites. They provide a way to include content from different sources seamlessly.
+        </p>
+        <pre>
+          &lt;iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"&gt;&lt;/iframe&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_audio_video">
+      <h2>HTML Audio and Video</h2>
+      <article>
+        <p>
+          HTML provides the <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> elements to embed audio and video content on web pages. With these elements, you can play audio and video files directly within the browser without requiring external plugins.
+        </p>
+        <pre>
+          &lt;audio controls&gt;
+            &lt;source src="song.mp3" type="audio/mpeg"&gt;
+            Your browser does not support the audio element.
+          &lt;/audio&gt;
+    
+          &lt;video controls&gt;
+            &lt;source src="video.mp4" type="video/mp4"&gt;
+            Your browser does not support the video element.
+          &lt;/video&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_canvas">
+      <h2>HTML Canvas</h2>
+      <article>
+        <p>
+          The HTML <code>&lt;canvas&gt;</code> element provides a way to draw graphics, animations, and other visual elements using JavaScript. It acts as a drawing board on which you can create interactive and dynamic content.
+        </p>
+        <pre>
+          &lt;canvas id="myCanvas" width="400" height="200"&gt;&lt;/canvas&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_svg">
+      <h2>HTML SVG</h2>
+      <article>
+        <p>
+          Scalable Vector Graphics (SVG) is a markup language for describing two-dimensional vector graphics. SVG images can be created and edited with code, making them resolution-independent and ideal for logos, icons, and illustrations on the web.
+        </p>
+        <pre>
+          &lt;svg width="100" height="100"&gt;
+            &lt;circle cx="50" cy="50" r="40" fill="blue" /&gt;
+          &lt;/svg&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_geolocation">
+      <h2>HTML Geolocation</h2>
+      <article>
+        <p>
+          HTML5 Geolocation allows web applications to access the user's geographic location. With the <code>navigator.geolocation</code> API, you can retrieve latitude and longitude coordinates, enabling location-based services and maps.
+        </p>
+        <p>
+          <strong>Example:</strong> Retrieving the user's location.
+        </p>
+        <pre>
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+          }
+    
+          function showPosition(position) {
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+            // Use latitude and longitude in your application.
+          }
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_web_storage">
+      <h2>HTML Web Storage</h2>
+      <article>
+        <p>
+          HTML5 Web Storage provides a way to store key-value pairs locally in the user's browser. This storage is persistent even after the browser is closed and can be used for various purposes like caching, session management, and preferences.
+        </p>
+        <p>
+          Web Storage consists of two objects: <code>localStorage</code> and <code>sessionStorage</code>. The former persists indefinitely, while the latter is cleared when the browser session ends.
+        </p>
+        <pre>
+          // Storing data in localStorage
+          localStorage.setItem('username', 'JohnDoe');
+    
+          // Retrieving data from localStorage
+          var username = localStorage.getItem('username');
+        </pre>
+      </article>
+    </section>
+    <section id="html_drag_drop">
+      <h2>HTML Drag and Drop</h2>
+      <article>
+        <p>
+          HTML Drag and Drop allows users to drag elements and drop them into different locations within a web page or between different applications. This feature is often used to create interactive and user-friendly interfaces.
+        </p>
+        <pre>
+          &lt;div id="dragElement" draggable="true"&gt;
+            Drag this element
+          &lt;/div&gt;
+    
+          &lt;div id="dropZone"&gt;
+            Drop here
+          &lt;/div&gt;
+    
+          &lt;script&gt;
+            var dragElement = document.getElementById('dragElement');
+            var dropZone = document.getElementById('dropZone');
+    
+            dragElement.addEventListener('dragstart', function(event) {
+              event.dataTransfer.setData('text/plain', event.target.id);
+            });
+    
+            dropZone.addEventListener('dragover', function(event) {
+              event.preventDefault();
+            });
+    
+            dropZone.addEventListener('drop', function(event) {
+              event.preventDefault();
+              var data = event.dataTransfer.getData('text');
+              event.target.appendChild(document.getElementById(data));
+            });
+          &lt;/script&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_web_workers">
+      <h2>HTML Web Workers</h2>
+      <article>
+        <p>
+          HTML Web Workers allow JavaScript code to run in the background without blocking the main thread. This enables concurrent processing and improves the responsiveness of web applications, especially for tasks that are computationally intensive or time-consuming.
+        </p>
+        <pre>
+          // Create a new web worker
+          var worker = new Worker('worker.js');
+    
+          // Listen for messages from the worker
+          worker.onmessage = function(event) {
+            console.log('Received message from worker:', event.data);
+          };
+    
+          // Send a message to the worker
+          worker.postMessage('Hello from the main thread!');
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_server_sent_events">
+      <h2>HTML Server-Sent Events</h2>
+      <article>
+        <p>
+          HTML Server-Sent Events (SSE) enable servers to push real-time updates to web clients over a single HTTP connection. This allows continuous streams of data to be sent from the server to the browser, making SSE suitable for applications like live feeds and notifications.
+        </p>
+        <pre>
+          // On the server-side (example using Node.js)
+          const http = require('http');
+    
+          const server = http.createServer((req, res) => {
+            res.writeHead(200, {
+              'Content-Type': 'text/event-stream',
+              'Cache-Control': 'no-cache',
+              'Connection': 'keep-alive',
+            });
+    
+            setInterval(() => {
+              const data = { message: 'New update from the server!' };
+              res.write('data: ' + JSON.stringify(data) + '\n\n');
+            }, 2000);
+          });
+    
+          server.listen(3000);
+    
+          // On the client-side
+          const eventSource = new EventSource('/updates');
+    
+          eventSource.onmessage = function(event) {
+            const data = JSON.parse(event.data);
+            console.log('Received server update:', data.message);
+          };
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_web_sockets">
+      <h2>HTML Web Sockets</h2>
+      <article>
+        <p>
+          HTML Web Sockets provide full-duplex communication channels over a single TCP connection. Unlike traditional HTTP requests, web sockets allow real-time, bidirectional data exchange between the client and the server.
+        </p>
+        <pre>
+          // On the client-side (using JavaScript)
+          const socket = new WebSocket('ws://example.com/socket');
+    
+          socket.onopen = function() {
+            console.log('WebSocket connection established.');
+            socket.send('Hello, server!');
+          };
+    
+          socket.onmessage = function(event) {
+            console.log('Received message from server:', event.data);
+          };
+    
+          socket.onclose = function(event) {
+            console.log('WebSocket connection closed:', event.code, event.reason);
+          };
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_app_cache">
+      <h2>HTML App Cache</h2>
+      <article>
+        <p>
+          HTML App Cache (deprecated) was a feature that allowed web developers to specify resources that should be cached locally by the browser, allowing web applications to work offline. However, it has been replaced by Service Workers, which offer more control and flexibility over caching and offline capabilities.
+        </p>
+      </article>
+    </section>
+    
+    <section id="html_cookies">
+      <h2>HTML Cookies</h2>
+      <article>
+        <p>
+          HTML Cookies are small pieces of data stored on the user's browser by websites. They are commonly used for user authentication, session management, and storing user preferences. However, they have some limitations, and more modern alternatives like Web Storage and JWTs are often used.
+        </p>
+        <pre>
+          // Setting a cookie with JavaScript
+          document.cookie = 'username=JohnDoe; expires=Thu, 18 Jul 2023 12:00:00 UTC; path=/';
+    
+          // Retrieving cookies with JavaScript
+          var cookies = document.cookie;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_history_api">
+      <h2>HTML History API</h2>
+      <article>
+        <p>
+          HTML History API allows developers to manipulate the browser's history and change the URL displayed in the address bar without triggering a full page reload. This enables smoother user experiences, such as implementing single-page applications (SPAs) and custom navigation flows.
+        </p>
+        <pre>
+          // Push a new state to the browser's history
+          history.pushState({ page: 'about' }, 'About', '/about');
+    
+          // Handle popstate event (when the user clicks the back/forward button)
+          window.onpopstate = function(event) {
+            if (event.state && event.state.page === 'about') {
+              // Handle the 'About' page
+            }
+          };
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_microdata">
+      <h2>HTML Microdata</h2>
+      <article>
+        <p>
+          HTML Microdata is a way to annotate HTML elements with machine-readable information about the content. This semantic markup helps search engines better understand the data and improve search result display. However, its usage has decreased in favor of other methods like JSON-LD.
+        </p>
+        <pre>
+          &lt;div itemscope itemtype="http://schema.org/Person"&gt;
+            &lt;span itemprop="name"&gt;John Doe&lt;/span&gt;
+            &lt;span itemprop="jobTitle"&gt;Web Developer&lt;/span&gt;
+          &lt;/div&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_web_components">
+      <h2>HTML Web Components</h2>
+      <article>
+        <p>
+          HTML Web Components allow developers to create custom, reusable HTML elements with encapsulated functionality and styling. This promotes modularity and reusability, making it easier to build complex web applications.
+        </p>
+        <pre>
+          // Define a new custom element
+          class MyComponent extends HTMLElement {
+            connectedCallback() {
+              this.innerHTML = 'This is my custom component!';
+            }
+          }
+    
+          // Register the custom element
+          customElements.define('my-component', MyComponent);
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_intro_to_xhtml">
+      <h2>HTML - Introduction to XHTML</h2>
+      <article>
+        <p>
+          XHTML (eXtensible HyperText Markup Language) is a stricter and XML-based version of HTML. While XHTML offers benefits like better code structure and compatibility with XML tools, it requires adherence to stricter syntax rules, making it less popular than HTML5 in modern web development.
+        </p>
+        <pre>
+          &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+            "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+          &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+            &lt;head&gt;
+              &lt;title&gt;My Web Page&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+              &lt;p&gt;This is my XHTML web page.&lt;/p&gt;
+            &lt;/body&gt;
+          &lt;/html&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_document_structure">
+      <h2>HTML Document Structure</h2>
+      <article>
+        <p>
+          The structure of an HTML document consists of several essential elements that define the page's content, metadata, and other details. Understanding the document structure is crucial for building well-formed and accessible web pages.
+        </p>
+        <pre>
+          &lt;!DOCTYPE html&gt;
+          &lt;html&gt;
+            &lt;head&gt;
+              &lt;title&gt;My Web Page&lt;/title&gt;
+              &lt;meta charset="UTF-8"&gt;
+              &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+              &lt;header&gt;
+                &lt;h1&gt;Welcome to My Web Page&lt;/h1&gt;
+              &lt;/header&gt;
+              &lt;nav&gt;
+                &lt;a href="#home"&gt;Home&lt;/a&gt;
+                &lt;a href="#about"&gt;About&lt;/a&gt;
+                &lt;a href="#contact"&gt;Contact&lt;/a&gt;
+              &lt;/nav&gt;
+              &lt;main&gt;
+                &lt;h2&gt;Main Content&lt;/h2&gt;
+                &lt;p&gt;This is the main content of the page.&lt;/p&gt;
+              &lt;/main&gt;
+              &lt;footer&gt;
+                &lt;p&gt;Copyright © 2023 My Web Page. All rights reserved.&lt;/p&gt;
+              &lt;/footer&gt;
+            &lt;/body&gt;
+          &lt;/html&gt;
+        </pre>
+      </article>
+    </section>
+    
+    <section id="html_basic_tags">
+      <h2>HTML Basic Tags</h2>
+      <article>
+        <p>
+          HTML offers a set of basic tags that form the building blocks of a web page. These tags define the structure and content of the page and are essential for conveying information to users and search engines.
+        </p>
+        <pre>
+          &lt;!DOCTYPE html&gt;
+          &lt;html&gt;
+            &lt;head&gt;
+              &lt;title&gt;My Web Page&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+              &lt;h1&gt;Welcome to My Web Page&lt;/h1&gt;
+              &lt;p&gt;This is a paragraph.&lt;/p&gt;
+              &lt;a href="#section"&gt;Click me!&lt;/a&gt;
+              &lt;img src="image.jpg" alt="Image"&gt;
+              &lt;ul&gt;
+                &lt;li&gt;Item 1&lt;/li&gt;
+                &lt;li&gt;Item 2&lt;/li&gt;
+                &lt;li&gt;Item 3&lt;/li&gt;
+              &lt;/ul&gt;
+            &lt;/body&gt;
+          &lt;/html&gt;
+        </pre>
+      </article>
+    </section>
+    <button class="abc" > <a href="Css.html">Learn CSS</a> </button>
+    <!-- Continue with the other sections... -->
+    <footer>
+      <p>Copyright © Shipyard Gamerz. All rights reserved.</p>
+      </footer>
+
+  </main>
+</body>
+</html>
