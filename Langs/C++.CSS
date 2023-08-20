@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(45deg, LightBlue, Blue, LightPink, Pink, Purple);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    margin: 0; 
+}
+
+
+h1   {
+    margin-left: 850px ;
+    margin-top: 460px;
+}
+h3 {
+    margin-left: 750px ;
+    margin-top: 46px;
+    font-size: larger;
+}
